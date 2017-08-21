@@ -5,7 +5,7 @@ use CadastroAluno;
 GO
 CREATE TABLE dbo.UnidadeFederativa
 (
-	UnidadeFederativaID INT,
+	UnidadeFederativaID INT NOT NULL,
 	Nome VARCHAR(100) NOT NULL,
 	UF CHAR(2) NOT NULL
 );
